@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media screen and ($brk-normal) {
 
     .container {
       max-width: 1400px;

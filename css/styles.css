@@ -351,9 +351,6 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58E1C1;
   border-radius: 5px; }
-  @media (max-width: 768px) {
-    .blockquote {
-      background-color: #51ddfc; } }
 
 /* ============================================= */
 /* Components Imports */
@@ -397,7 +394,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1; }
+  border-bottom: 5px solid #58E1C1; }
 
 .hidden {
   position: absolute;
@@ -493,9 +490,6 @@ a {
 
 .theme.col-8 {
   background-color: #fd9f85; }
-  @media (max-width: 768px) {
-    .theme.col-8 {
-      background-color: #51ddfc; } }
 
 .theme.col-9 {
   background-color: #e4757a; }
@@ -515,7 +509,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media screen and ((min-width: 768px)) {
   .container {
     max-width: 1400px;
     display: block;

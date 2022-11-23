@@ -1,12 +1,22 @@
 /* Create at least 5 color variables */
 
 
-$white      : #fff;
-$black      : #000;
-$grey       : #878787;
-$grey-m     : #777;
-$downy      : #58E1C1;
-$turquoise-blue: #51ddfc;
+$white      :#fff;
+$froly      :#e4757a;
+$emerald    :#63cc82;
+$riptide    :#80e8d1;
+$true-v     :#927bc1;
+$coral      :#fd7856;
+$mauve      :#deb2ee;
+$electric-blue: #7ee6fd;
+$chinook    :#88d9a0;
+$viking     :#4da2bb;
+$wewak      :#ec9fa3;
+$vivid-tangerine:#fd9f85;
+$grey       :#878787;
+$grey-m     :#777;
+$downy      :#58E1C1;
+$turquoise-blue:#51ddfc;
 
 
 $color-prim :$downy;
@@ -16,4 +26,4 @@ $color-body:$white;
 
 /* Create at least 1 variable for media query breakpoint*/
 
-$brk-normal : '(max-width: 768px)';
+$brk-normal : '(min-width: 768px)';
